@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import shortid from 'shortid';
 import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Container from './Container/Container';
 import ContactForm from './ContactForm/ContactForm';
 import Filter from './Filter/Filter';
